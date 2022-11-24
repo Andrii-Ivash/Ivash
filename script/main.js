@@ -72,8 +72,12 @@ body.appendChild(button);
 
 
 button.addEventListener("click", function () {
-    button.style.backgroundColor = "pink";
-    button.style.color = "blue";
+  let a = Math.floor(Math.random() * 256) + 1;
+  let b = Math.floor(Math.random() * 256) + 1;
+  let c = Math.floor(Math.random() * 256) + 1;
+
+  button.style.background = `rgb( ${a}, ${b}, ${c})`;
+  button.style.color = `rgb( ${b}, ${c}, ${a})`;
 });
 
 
