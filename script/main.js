@@ -57,11 +57,6 @@ document.querySelector("#content").style.cssText = "color:white;";
 //     "color:red; background-color:gold; position:absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); font-size:36px; padding: 20px; border-radius: 10px; cursor:pointer;"
 // );
 
-sadfdsagasd
-gsdagdsagads
-gdsagsdagdsag
-sdadgdsagdsag
-
 const body = document.body;
 const button = document.createElement("button");
 
